@@ -1,0 +1,16 @@
+User guide
+1.complie and build
+mkdir build
+cd build
+cmake ../
+make 
+
+2.identify_face usage
+(1) register face
+```shell
+./build/example/identify_face -m model_data/ -d face_base/ -i input_img/
+```
+(2) match face 
+```shel
+./build/example/identify_face -m model_data/ -d face_base/ -i input_img/ -v
+```
